@@ -33,6 +33,13 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
+
+layout_dir: layout
+layout: post
+generator:
+  post:
+    layout: post
+
 titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
@@ -54,6 +61,7 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
+
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -102,7 +110,7 @@ theme: A4
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/Yevandel/Yevandel.github.io.git
+  repo: http://github.com/Yevandel/Yevandel.github.io.git
   branch: main  # 或者 master，取决于你的默认分支
   name: Yevandel
   email: mellsellme@gmail.com

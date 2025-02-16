@@ -10,12 +10,15 @@ menu:
    🦋标签: /tags/ #需要hexo new page tags
    🎠分类: /categories/ # 需要hexo new page categories
    🧩关于: /about/ # 需要hexo new page about
+   🎆NOW: /NOW/
+   
   # ...
 
 # 首页你想要展示的menu链接，注意当你修改了menu中的别名，这里要随着更改，不然你会疑惑怎么首页没有修改后的别名
 showInMenu:  # menu 中的哪些页面显示在首页中（“首页”必定显示）
    - ⛰️文章  # 将在首页显示 文章 链接
    - 🧩关于
+   - 🎆NOW
    # - 🌍标签
    # - 🎠分类
 
@@ -141,6 +144,11 @@ lightgallery:
 comment:
   enable: true 
   use: waline # values: waline、twikoo、artalk
+  excludePage:
+    - /fragments/archive/
+  exclude:
+    - /fragments/archive/ # 排除 fragments archive 页面的评论
+
 
   # Waline
   # See: https://waline.js.org/guide/get-started.html
@@ -166,6 +174,6 @@ inject:
   css: css/custom.css
   head:
   body:
-   
+    - node_modules\hexo-theme-a4\source\js\draw-branches.js
 
 version: v1.9.7
