@@ -1,0 +1,155 @@
+/* 基础样式 - 共享的属性 */
+[class^="circle-"] {
+    padding: 40px 25px 50px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/* ====== 版本1：带背景色 ====== */
+/* 粉色系 - 柔和的玫瑰粉 */
+.circle-pink {
+    border-color: rgb(233, 137, 212);
+    background-color: rgba(255, 192, 203, 0.05);
+}
+
+/* 蓝色系 - 皇家蓝 */
+.circle-blue {
+    border-color: #4e7dde;
+    background-color: rgba(78, 125, 222, 0.05);
+}
+
+/* 黑色系 - 午夜黑 */
+.circle-black {
+    border-color: #2c3e50;
+    background-color: rgba(44, 62, 80, 0.05);
+}
+
+/* 橙色系 - 温暖橘橙 */
+.circle-orange {
+    border-color: #ff7834;
+    background-color: rgba(255, 120, 52, 0.05);
+}
+
+/* 绿色系 - 森林绿 */
+.circle-green {
+    border-color: #2ecc71;
+    background-color: rgba(46, 204, 113, 0.05);
+}
+
+/* 紫色系 - 优雅紫罗兰 */
+.circle-purple {
+    border-color: #9b59b6;
+    background-color: rgba(155, 89, 182, 0.05);
+}
+
+/* 红色系 - 朱砂红 */
+.circle-red {
+    border-color: #e74c3c;
+    background-color: rgba(231, 76, 60, 0.05);
+}
+
+/* 青色系 - 海洋蓝绿 */
+.circle-cyan {
+    border-color: #1abc9c;
+    background-color: rgba(26, 188, 156, 0.05);
+}
+
+/* 棕色系 - 温暖咖啡 */
+.circle-brown {
+    border-color: #8b4513;
+    background-color: rgba(139, 69, 19, 0.05);
+}
+
+/* 金色系 - 奢华金 */
+.circle-gold {
+    border-color: #ffd700;
+    background-color: rgba(255, 215, 0, 0.05);
+}
+
+/* ====== 版本2：无背景色 ====== */
+/* 粉色系 - 柔和的玫瑰粉 */
+.circle-pink-simple {
+    border-color: rgb(233, 137, 212);
+}
+
+/* 蓝色系 - 皇家蓝 */
+.circle-blue-simple {
+    border-color: #4e7dde;
+}
+
+/* 黑色系 - 午夜黑 */
+.circle-black-simple {
+    border-color: #2c3e50;
+}
+
+/* 橙色系 - 温暖橘橙 */
+.circle-orange-simple {
+    border-color: #ff7834;
+}
+
+/* 绿色系 - 森林绿 */
+.circle-green-simple {
+    border-color: #2ecc71;
+}
+
+/* 紫色系 - 优雅紫罗兰 */
+.circle-purple-simple {
+    border-color: #9b59b6;
+}
+
+/* 红色系 - 朱砂红 */
+.circle-red-simple {
+    border-color: #e74c3c;
+}
+
+/* 青色系 - 海洋蓝绿 */
+.circle-cyan-simple {
+    border-color: #1abc9c;
+}
+
+/* 棕色系 - 温暖咖啡 */
+.circle-brown-simple {
+    border-color: #8b4513;
+}
+
+/* 金色系 - 奢华金 */
+.circle-gold-simple {
+    border-color: #ffd700;
+}
+
+/* ====== 额外的柔和色系 ====== */
+/* 薰衣草紫 */
+.circle-lavender {
+    border-color: #e6e6fa;
+    background-color: rgba(230, 230, 250, 0.05);
+}
+
+/* 蒂芙尼蓝 */
+.circle-tiffany {
+    border-color: #81d8d0;
+    background-color: rgba(129, 216, 208, 0.05);
+}
+
+/* 珊瑚橙 */
+.circle-coral {
+    border-color: #ff7f50;
+    background-color: rgba(255, 127, 80, 0.05);
+}
+
+/* 薄荷绿 */
+.circle-mint {
+    border-color: #98ff98;
+    background-color: rgba(152, 255, 152, 0.05);
+}
+
+/* 杏色 */
+.circle-apricot {
+    border-color: #ffd8b1;
+    background-color: rgba(255, 216, 177, 0.05);
+}
