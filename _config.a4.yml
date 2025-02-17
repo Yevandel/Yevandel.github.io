@@ -48,7 +48,7 @@ post:
   titlePosition: center # left ｜ center 文章标题的位置
   
 # 相对于source目录下的头像url
-favicon: /img/favicon7.png# 默认方形头像
+favicon: /img/favicon7.png # 默认方形头像
 isRoundedAvatar: true # 是否圆形头像
 isAvatarRotating: false # 圆形头像是否开启悬浮旋转
 
@@ -102,6 +102,8 @@ cdn:
   choose: zzko  # zzko | aliyun | unpkg| jsdelivr  # 都调整为利于国内的cdn，建议使用默认的 zzko 即可
   # 因为是免费CDN，所以有挂的风险，一旦发现网站样式出现原来没有的问题，请尝试关闭CDN
 
+
+
 # 实验性功能：A4色调调整：颜色搭配是很主观的行为
 # 设置为 false 为 A4 默认灰白色调，可设置为 true 直接启动 体验下 另一种护眼预置色调
 # 注：颜色代码需加“#”，颜色单词不需要加“#”
@@ -144,10 +146,6 @@ lightgallery:
 comment:
   enable: true 
   use: waline # values: waline、twikoo、artalk
-  excludePage:
-    - /fragments/archive/
-  exclude:
-    - /fragments/archive/ # 排除 fragments archive 页面的评论
 
 
   # Waline
@@ -174,6 +172,5 @@ inject:
   css: css/custom.css
   head:
   body:
-    - node_modules\hexo-theme-a4\source\js\draw-branches.js
 
 version: v1.9.7
