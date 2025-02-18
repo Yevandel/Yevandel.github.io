@@ -14,7 +14,7 @@ favicon: /img/favicon.ico
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://www.yevandel.top
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -113,5 +113,5 @@ deploy:
   type: git
   repo: http://github.com/Yevandel/Yevandel.github.io.git
   branch: main  # 或者 master，取决于你的默认分支
-  name: Yevandel
-  email: mellsellme@gmail.com
+#  name: Yevandel
+#  email: mellsellme@gmail.com
