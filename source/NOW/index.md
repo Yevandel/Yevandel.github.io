@@ -1,7 +1,9 @@
 ---
+layout: page
 title: NOW
 date: 2025-02-16 00:00:00
-type: page
+type: "page"
+cover: true
 ---
 
 <h3 align="center"> 我当下的所做/所思/所想</h3>

@@ -1,8 +1,11 @@
 ---
-  title: about
-  date: 2025-02-13 19:40:41
-  comment: false
---- 
+layout: about
+title: 关于
+date: 2024-02-18
+type: "about"
+comments: false
+cover: true
+---
   
   
   

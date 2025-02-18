@@ -10,6 +10,7 @@ date: 2025-02-14 11:30:00
 categories: 
   - 技术
   - 前端    # 可以是多级分类
+  - 测试
 tags:
   - JavaScript
   - HTML

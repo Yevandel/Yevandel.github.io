@@ -1,4 +1,7 @@
 ---
-title: categories
-date: 2025-02-13 19:34:28
+layout: category
+title: 分类
+date: 2024-02-18
+type: "categories"
+cover: true
 ---
