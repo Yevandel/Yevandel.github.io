@@ -520,8 +520,9 @@ sidebar:
           url: mailto:contact@yevandel.top
         - icon: fa-solid fa-icons                     # fab fa-github
           url: /                           # https://github.com/volantis-x/
-        - icon:  fa-solid fa-heart         # fa-solid fa-headphones-alt
-          url: /                            # https://open.spotify.com/user/31s4trcvlojrrefgw2rv6moowkfa?si=15af16f929d84b62
+        - icon: fab fa-steam                  #fa-solid fa-heart         # fa-solid fa-headphones-alt
+          url: https://steamcommunity.com/profiles/76561199631324458/                            # https://open.spotify.com/user/31s4trcvlojrrefgw2rv6moowkfa?si=15af16f929d84b62
+
     # ---------------------------------------
     # toc widget (valid only in articles)
     toc:
