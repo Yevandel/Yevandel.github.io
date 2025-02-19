@@ -750,8 +750,8 @@ plugins:
     js: volantis-static/libs/scrollreveal/dist/scrollreveal.min.js # https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js
     distance: 32px
     duration: 800 # ms
-    interval: 20 # ms
-    scale: 1 # 0.1~1
+    interval: 60 # ms
+    scale: 0.8 # 0.1~1
 
   ######## Plugins for SEO:
   # npm i hexo-wordcount
