@@ -517,7 +517,7 @@ sidebar:
         - icon: fa-solid fa-house
           url: /
         - icon: fa-solid fa-envelope
-          url: mailto:contact@yevandel.top
+          url: mailto:contact@yevandel.com
         - icon: fa-solid fa-icons                     # fab fa-github
           url: /                           # https://github.com/volantis-x/
         - icon: fab fa-steam                  #fa-solid fa-heart         # fa-solid fa-headphones-alt
